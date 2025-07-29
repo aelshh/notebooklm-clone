@@ -9,19 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/genai": "^1.11.0",
+    "@pinecone-database/pinecone": "^6.1.2",
+    "@react-pdf/renderer": "^4.3.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/multer": "^2.0.0",
+    "@types/uuid": "^10.0.0",
+    "formdata-node": "^6.0.3",
+    "fs-extra": "^11.3.0",
+    "llamaindex": "^0.11.23",
+    "multer": "^2.0.2",
+    "next": "15.4.4",
+    "openai": "^5.10.2",
+    "pdfjs-dist": "^5.4.54",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.4"
+    "react-pdf": "^10.0.1",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/react-pdf": "^6.2.0",
+    "@ungap/with-resolvers": "^0.1.0",
     "eslint": "^9",
     "eslint-config-next": "15.4.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
